@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.0-beta-.0.0.1...v0.0.0) (2022-03-22)
+
+
+### Features
+
+* teste ([3fb0430](https://github.com/mokkapps/changelog-generator-demo/commits/3fb04301c924f1e66f93e6fb7a34ed087af1a896))
+
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
