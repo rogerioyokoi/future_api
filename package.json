@@ -8,7 +8,13 @@
     "lint": "eslint --ext .ts ./",
     "lint:fix": "eslint --ext .ts --fix ./",
     "lint:errors": "eslint --ext .ts --quiet ./",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "test": "",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -23,15 +29,23 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
+    "cz-conventional-changelog": "^3.0.1",
     "eslint": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "husky": "^7.0.0",
     "prettier": "^2.6.0",
+    "standard-version": "^9.3.2",
     "typescript": "^4.6.2"
   },
   "dependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
